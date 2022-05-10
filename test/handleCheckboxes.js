@@ -11,11 +11,8 @@ describe("Test Suite", function(){
    it("Should select checkbox",function(){
 
     driver.get('https://the-internet.herokuapp.com/checkboxes');
+    //
     driver.findElement(By.css("input[type='checkbox']")).click();
-
-    //set delay
-    //driver.manage().setTimeouts( { implicit: 10000 } );
-    //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
     driver.findElement(By.css("input[type='checkbox']")).click();     
     });
