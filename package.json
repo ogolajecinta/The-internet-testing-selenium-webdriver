@@ -1,0 +1,18 @@
+{
+  "name": "lexvent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-suite.js",
+  "scripts": {
+    "test": "mocha --parallel './test/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chromedriver": "^100.0.0",
+    "geckodriver": "^3.0.1",
+    "mocha": "^9.2.2",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
